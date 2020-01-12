@@ -1,0 +1,46 @@
+/* vs-code theme: https://github.com/dracula/visual-studio-code/blob/master/src/dracula.yml */
+
+main {
+  font-family: Menlo, Monaco, 'Courier New', monospace;
+  max-width: 38rem;
+  padding: 2rem;
+  margin: auto;
+}
+
+@media only screen and (max-device-width: 736px) {
+  main {
+    padding: 0rem;
+  }
+}
+
+::selection {
+  background: #44475A75;
+}
+
+body {
+  background: #282A36;
+  color:      #F8F8F2;
+}
+
+pre {
+  background-color: #3c3836;
+  padding: 1em;
+  border: 0;
+}
+
+a, a:active, a:visited {
+  color: #8BE9FD;
+  /* background-color: #1d2021; */
+}
+
+h1, h2, h3, h4, h5 {
+  color: #FF79C6;
+  margin-bottom: .1rem;
+}
+
+blockquote {
+  border-left: 1px solid #BD93F9;
+  margin: 0.5em 10px;
+  padding: 0.5em 10px;
+  color: #BD93F9;
+}
